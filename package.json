@@ -1,0 +1,16 @@
+{
+ "name": "aeropay",
+ "version": "1.0.0",
+ "description": "aeropayment webapp",
+ "author": "Qunhao Song",
+ "private": true,
+ "scripts": {
+  "start": "node server.js",
+  "postinstall": "npm install express serve-static"
+ },
+ "dependencies": {
+  "compression": "^1.6.2",
+  "express": "^4.15.3",
+  "serve-static": "^1.12.3"
+ }
+}
